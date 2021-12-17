@@ -28,7 +28,7 @@
             <li v-for="(todo, index) in todos" class="todo">
                 <div class="todo-text">
                     <h3 :class="(todo.done == true) ? 'active' : ''">{{ todo.text }}</h3>
-                    <i @click="removeTodo" class="fas fa-times color"></i>
+                    <i @click="removeTodo(index)" class="fas fa-times color"></i>
                 </div>
             </li>
         </ul>
