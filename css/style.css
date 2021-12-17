@@ -20,7 +20,7 @@ header h1{
 .container{
     height: 800px;
     width: 1000px;
-    background-color: lightyellow;
+    background-color: #000000;
     border-radius: 15px;
     margin: 40px auto;
     padding: 50px;
@@ -43,4 +43,10 @@ ul{
     border: none;
     border-radius: 25px;
     padding: 10px;
+    background-color: #1c1c1e;
+    font-weight: 700;
+}
+
+.active{
+    text-decoration: line-through;
 }

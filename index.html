@@ -19,7 +19,7 @@
         <ul>
             <li v-for="(todo, index) in todos" class="todo">
                 <div class="todo-text">
-                    <h3>{{ todo.text }}</h3>
+                    <h3 :class="(todo.done == true) ? 'active' : ''">{{ todo.text }}</h3>
                 </div>
             </li>
         </ul>
