@@ -18,8 +18,8 @@ const app = new Vue(
     {
         el: '#app',
         data: {
-        newTodo = '',
-        alltodo: [
+        newTodo : '',
+        todos: [
             {
                 text: 'Fare la spesa',
                 done: true,
