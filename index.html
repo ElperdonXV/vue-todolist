@@ -23,6 +23,7 @@
         </header>
         <div class="input-todo">
             <input @keyup.enter="addTodo" v-model="newTodo" type="text" placeholder="Aggiungi To Do">
+            <i @click="addTodo" class="fas fa-plus-circle"></i>
         </div>
         <ul>
             <li v-for="(todo, index) in todos" class="todo">
