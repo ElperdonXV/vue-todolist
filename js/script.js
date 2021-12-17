@@ -35,7 +35,15 @@ const app = new Vue(
         ]
     },
         methods: {
-            
+            addTodo: function(){
+                if(this.newTodo.lenght !=0){
+                    let obj = {
+                        text : this.newTodo,
+                        done: false,
+                    }
+                    this.todos.push(obj);
+                }
+            }
         }
     }
 );

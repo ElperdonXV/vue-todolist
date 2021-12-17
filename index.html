@@ -13,6 +13,9 @@
         <h1>To do List</h1>
     </header>
     <div class="container" id="app">
+        <div class="input-todo">
+            <input @keyup.enter="addTodo" v-model="newTodo" type="text" placeholder="Aggiungi To Do">
+        </div>
         <ul>
             <li v-for="(todo, index) in todos" class="todo">
                 <div class="todo-text">
