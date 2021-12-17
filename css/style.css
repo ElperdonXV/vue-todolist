@@ -71,3 +71,15 @@ ul{
 .active{
     text-decoration: line-through;
 }
+
+.todo-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo-text i{
+    font-size: 1.5em;
+    color: white;
+    font-family: "Font Awesome 5 Free";
+    cursor: pointer;
+}

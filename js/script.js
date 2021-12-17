@@ -43,6 +43,9 @@ const app = new Vue(
                     }
                     this.todos.push(obj);
                 }
+            }, 
+            removeTodo: function(index){
+                this.todos.splice(index, 1);
             }
         }
     }
